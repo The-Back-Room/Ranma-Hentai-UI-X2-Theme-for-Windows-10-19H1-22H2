@@ -70,9 +70,9 @@ DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\ding.wav
 [AppEvents\Schemes\Apps\.Default\ChangeTheme]
 DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\changetheme.wav
 [AppEvents\Schemes\Apps\.Default\Logon]
-DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\logon.wav
+DefaultValue=
 [AppEvents\Schemes\Apps\.Default\Logoff]
-DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\logoff.wav
+DefaultValue=
 [AppEvents\Schemes\Apps\.Default\CriticalBatteryAlarm]
 DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\battery critical.wav
 [AppEvents\Schemes\Apps\.Default\DeviceConnect]
