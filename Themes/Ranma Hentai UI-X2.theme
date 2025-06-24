@@ -1,0 +1,114 @@
+; Copyright � Microsoft Corp.
+
+[Theme]
+; Windows - IDS_THEME_DISPLAYNAME_Ranma Hentai UI-X2
+DisplayName=Ranma Hentai [UI-X2]
+BrandImage=%SystemRoot%\Resources\Themes\Ranma Hentai UI-X2\Logo.png
+SetLogonBackground=1
+
+; Computer - SHIDI_SERVER
+[CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\Ranma Hentai UI-X2\Imageres.dll\109.ico
+
+; UsersFiles - SHIDI_USERFILES
+[CLSID\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\Ranma Hentai UI-X2\Imageres.dll\123.ico
+
+; Network - SHIDI_MYNETWORK
+[CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\Ranma Hentai UI-X2\Imageres.dll\25.ico
+
+; Recycle Bin - SHIDI_RECYCLERFULL SHIDI_RECYCLER
+[CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
+Full=%SystemRoot%\Resources\Themes\Ranma Hentai UI-X2\Imageres.dll\54.ico,0
+Empty=%SystemRoot%\Resources\Themes\Ranma Hentai UI-X2\Imageres.dll\55.ico,0
+
+[Control Panel\Cursors]
+AppStarting=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Cursors\AppStarting.ani
+Arrow=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Cursors\Arrow.cur
+Crosshair=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Cursors\cross.cur
+Hand=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Cursors\Handwriting.ani
+Help=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Cursors\Help.ani
+IBeam=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Cursors\IBeam.ani
+No=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Cursors\NO.ani
+NWPen=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Cursors\Hand.cur
+SizeAll=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Cursors\aero_move.cur
+SizeNESW=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Cursors\SizeNESW.ani
+SizeNS=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Cursors\SizeNS.ani
+SizeNWSE=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Cursors\SizeNWSE.ani
+SizeWE=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Cursors\SizeWE.ani
+UpArrow=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Cursors\UpArrow.ani
+Wait=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Cursors\Wait.ani
+DefaultValue=X-Steel
+
+[Control Panel\Desktop]
+Wallpaper=%SYSTEMROOT%\Resources\Themes\Ranma Hentai\Wallpapers\001.png
+Pattern=
+MultimonBackgrounds=0
+PicturePosition=4
+WindowsSpotlight=0
+
+[VisualStyles]
+Path=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\UI-X2.msstyles
+ColorStyle=NormalColor
+Size=NormalSize
+AutoColorization=1
+ColorizationColor=0XC45E3717
+SystemMode=Dark
+AppMode=Dark
+VisualStyleVersion=10
+
+
+[MasterThemeSelector]
+MTSM=RJSPBS
+
+[Sounds]
+; IDS_SCHEME_DEFAULT
+SchemeName=Ranma Hentai UI-X2
+[AppEvents\Schemes\Apps\.Default\.Default]
+DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\ding.wav
+[AppEvents\Schemes\Apps\.Default\ChangeTheme]
+DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\changetheme.wav
+[AppEvents\Schemes\Apps\.Default\Logon]
+DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\logon.wav
+[AppEvents\Schemes\Apps\.Default\Logoff]
+DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\logoff.wav
+[AppEvents\Schemes\Apps\.Default\CriticalBatteryAlarm]
+DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\battery critical.wav
+[AppEvents\Schemes\Apps\.Default\DeviceConnect]
+DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\hardware insert.wav
+[AppEvents\Schemes\Apps\.Default\DeviceDisconnect]
+DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\hardware remove.wav
+[AppEvents\Schemes\Apps\.Default\DeviceFail]
+DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\hardware fail.wav
+[AppEvents\Schemes\Apps\.Default\FaxBeep]
+DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\notify.wav
+[AppEvents\Schemes\Apps\.Default\LowBatteryAlarm]
+DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\battery low.wav
+[AppEvents\Schemes\Apps\.Default\MailBeep]
+DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\notify.wav
+[AppEvents\Schemes\Apps\.Default\PrintComplete]
+DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\print complete.wav
+[AppEvents\Schemes\Apps\.Default\SystemAsterisk]
+DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\error.wav
+[AppEvents\Schemes\Apps\.Default\SystemExclamation]
+DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\exclamation.wav
+[AppEvents\Schemes\Apps\.Default\SystemHand]
+DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\critical stop.wav
+[AppEvents\Schemes\Apps\.Default\SystemNotification]
+DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\balloon.wav
+[AppEvents\Schemes\Apps\.Default\WindowsUAC]
+DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\uac.wav
+[AppEvents\Schemes\Apps\Explorer\BlockedPopup]
+DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\pop-up blocked.wav
+[AppEvents\Schemes\Apps\Explorer\FeedDiscovered]
+DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\feed discovered.wav
+[AppEvents\Schemes\Apps\Explorer\Navigating]
+DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\navigation start.wav
+[AppEvents\Schemes\Apps\Explorer\SecurityBand]
+DefaultValue=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Sounds\information bar.wav
+
+[Slideshow]
+ImagesRootPath=%SYSTEMROOT%\Resources\Themes\Ranma Hentai UI-X2\Wallpapers\
+Interval=1800000
+Shuffle=1
